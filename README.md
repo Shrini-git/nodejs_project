@@ -19,10 +19,13 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 5. Install Node server and NPM in EC2 Instance
 nvm install --lts
 
-6. Start node server to run node application
+6. Install the body-parser module
+# npm install body-parser
+
+7. Start node server to run node application
 node server.js
 
 
-7. Now open following url in browser to hit api.
- http://<EC2 Server Hostname>:8080/hellow
+8. Now open following url in browser to hit api.
+ http://<EC2 Server Hostname>:8080/hello
 # nodejs_project
