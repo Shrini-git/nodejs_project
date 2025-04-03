@@ -15,19 +15,20 @@ git clone https://github.com/Shrini-git/nodejs_project.git
 4. Install NVM (node version manager) in EC2 server :
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
-~/.nvm/nvm.sh
+5. Add component of Node Version Manager (NVM):
+ ~/.nvm/nvm.sh
 
-5. Install Node server and NPM in EC2 Instance :
+6. Install Node server and NPM in EC2 Instance :
 nvm install --lts
 
-6. Install the body-parser module :
+7. Install the body-parser module :
 npm install body-parser
 
-7. Start node server to run node application :
+8. Start node server to run node application :
 node server.js
 
 
-8. Now open following url in browser to hit api :
+9. Now open following url in browser to hit api :
  http://<EC2 Server Hostname>:8080/hello
 
 # Thank you
