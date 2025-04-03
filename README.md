@@ -13,7 +13,7 @@ sudo yum install git -y
 git clone https://github.com/Shrini-git/nodejs_project.git
 
 4. Install NVM (node version manager) in EC2 server :
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash ~/.nvm/nvm.sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 5. Add the following lines at the end of the bashrc file : 
 export NVM_DIR="$HOME/.nvm"
