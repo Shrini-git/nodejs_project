@@ -1,5 +1,5 @@
-# nodejs-helloworld-api-project
-Hello world api project in nodejs
+# Nodejs API project for InsuredMine
+Sample api project in nodejs
 
 
 
