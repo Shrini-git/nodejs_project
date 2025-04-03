@@ -8,7 +8,7 @@ app.use(bodyParser.json() , cors())
  
  
 app.get('/', (req, res) => {
-   res.send('Welcome to Nodejs API Project')
+   res.send('Welcome to Nodejs API Project, This Project I have created for InsuredMine Organization')
  })
 
  app.get('/hello', (req, res) => {
