@@ -15,6 +15,12 @@ git clone https://github.com/Shrini-git/nodejs_project.git
 4. Install NVM (node version manager) in EC2 server :
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash ~/.nvm/nvm.sh
 
+5. Add the following lines at the end of the bashrc file : 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
 6. Install Node server and NPM in EC2 Instance :
 nvm install --lts
 
