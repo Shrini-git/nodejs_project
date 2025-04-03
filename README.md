@@ -20,7 +20,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 nvm install --lts
 
 6. Install the body-parser module
-# npm install body-parser
+npm install body-parser
 
 7. Start node server to run node application
 node server.js
